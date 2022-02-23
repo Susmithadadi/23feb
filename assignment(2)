@@ -1,0 +1,17 @@
+a=[]
+n=int(input("enter n"))
+for i in range(n):
+    b=int(input())
+    a.append(b)
+for i in range(n-1,-1,-1):
+    print(a[i])
+    
+    
+enter n
+3
+22
+33
+44
+44
+33
+22
